@@ -1,0 +1,25 @@
+*{
+    background-color: rgb(139, 139, 80);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#grid{
+    background-color: rgba(180, 230, 213, 0.762);
+    height: 600px;
+    width: 600px;
+    display: inline-grid;
+    grid-template-columns: repeat(20, 0.1fr);
+    grid-template-rows: repeat(20, 0.1fr);
+}
+.box{
+    background-color: rgb(226, 243, 235);
+    width: 25px;
+    height: 25px;
+}
+.boxHover{
+    background-color: black;
+}
