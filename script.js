@@ -22,3 +22,9 @@ function boxParamaters(num){
     boxClass.style.height = side;
 }
 createGrid();
+const value = document.querySelector("#value")
+const input = document.querySelector("#myRange")
+value.textContent = input.value
+input.addEventListener("input", (event) => {
+  value.textContent = event.target.value
+})
