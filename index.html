@@ -11,7 +11,18 @@
     <div class="header">Etch-a-sketch</div>
     <div class="content">
         <div id="grid"></div>
-        <div class="options"></div>
+        <div class="options">
+            <div class="slideContainer">
+                <input type="range" min="1" max="50" value='25' class="slider" id="myRange">
+                <p>Value: <output id="value"></output></p>
+            </div>
+            <div class="rainbow">
+                <button class="rainbowBtn">Rainbow?</button>
+            </div>
+            <div class="clear">
+                <button class="clearBtn">Clear</button>
+            </div>
+        </div>
     </div>
     <script type="text/javascript" src="script.js"></script>
 </body>
